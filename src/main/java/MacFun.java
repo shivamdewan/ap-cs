@@ -7,7 +7,8 @@ package main.java;
  */
 
 /**
- *
+ * We are going to test. Calm down.
+ * 
  * @author tanisha
  */
 public class MacFun {
