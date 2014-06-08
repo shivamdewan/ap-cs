@@ -8,13 +8,14 @@ package main.java;
 
 /**
  * We are going to test. Calm down.
- * 
+ *
  * @author tanisha
  */
 public class MacFun {
-    
+
     public static void main(String[] args) {
-        System.out.println("Test the world");
+        int x = 13;
+        System.out.println("Test the world " + x + " times");
     }
-    
+
 }
