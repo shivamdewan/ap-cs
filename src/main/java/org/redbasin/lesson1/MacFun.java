@@ -1,4 +1,4 @@
-package main.java;
+package main.java.org.redbasin.lesson1;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
