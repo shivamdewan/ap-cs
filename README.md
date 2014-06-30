@@ -6,3 +6,6 @@ class that we will commit to github. So students can check these out, and be abl
 understand the features of Java by looking at the examples. These examples have been
 compiled and tested, so the students can use these as an academic example to learn how
 the theory works.
+
+To understand this, you can step into the "src" directory, and keep clicking to discover
+the various packages organized by theory and topic.
