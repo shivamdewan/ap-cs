@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package org.redbasin.inttheory;
+package org.redbasin.primitivetypes.inttype;
 
 /**
  * A hex number is represented as starting from "0x" followed by the actual hex
