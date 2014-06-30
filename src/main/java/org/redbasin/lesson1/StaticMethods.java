@@ -12,13 +12,13 @@ package org.redbasin.lesson1;
  *
  * @author redbasin
  */
- public class HelloWorld {
+ public class StaticMethods {
 
     static int age = 10;
 
     /**
      * This method is static, as we want to call it without creating an instance of
-     * the object HelloWorld.
+ the object StaticMethods.
      *
      * @return
      */
@@ -27,8 +27,8 @@ package org.redbasin.lesson1;
     }
 
     /**
-     * We can call getAge() without creating an instance of HelloWorld, as getAge()
-     * is a static method.
+     * We can call getAge() without creating an instance of StaticMethods, as getAge()
+ is a static method.
      *
      * The main is a special method. It always must be called "main", and must take the
      * argument of type String[], as it is designed to take multiple String arguments
