@@ -7,6 +7,9 @@
 package org.redbasin.lesson1;
 
 /**
+ * Understanding static variables.
+ * Note that the static color variable is shared across two instances of
+ * the Mango class.
  *
  * @author redbasin
  */

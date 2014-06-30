@@ -8,6 +8,8 @@ package org.redbasin.lesson1;
 
 /**
  * We are going to test. Calm down.
+ * This program demonstrates printing literal strings and variables, and intermixing
+ * them. Notice that the "+" operator is used here to add two Strings.
  *
  * @author tanisha
  */
