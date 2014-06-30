@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package org.redbasin.lesson2;
+package org.redbasin.stringtheory;
 
 /**
  * The char type is unsigned, and can be used to store positive numbers.

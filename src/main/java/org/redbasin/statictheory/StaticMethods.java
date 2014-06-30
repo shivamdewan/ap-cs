@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package org.redbasin.lesson1;
+package org.redbasin.statictheory;
 
 /**
  * static variables are variables that are shared across all instances of a class.

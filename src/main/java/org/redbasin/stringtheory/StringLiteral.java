@@ -1,4 +1,4 @@
-package org.redbasin.lesson1;
+package org.redbasin.stringtheory;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
