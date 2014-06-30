@@ -15,10 +15,20 @@ public class Mammal extends Animal {
 
     double milkProduced; // volume in cc
 
+    /**
+     * All mammals produce milk.
+     *
+     * @return double
+     */
     protected double getMilkProduced() {
         return milkProduced;
     }
 
+    /**
+     * The milk produced is not known unless we have a specific mammal.
+     *
+     * @param m
+     */
     protected void setMilkProduced(double m) {
         milkProduced = m;
     }

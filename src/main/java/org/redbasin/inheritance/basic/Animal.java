@@ -15,10 +15,20 @@ public class Animal {
 
     int numberOfLimbs;
 
+    /**
+     * All animals have limbs.
+     *
+     * @return
+     */
     protected int getLimbs() {
         return numberOfLimbs;
     }
 
+    /**
+     * These limbs are not settable until we have a specific animal in mind.
+     *
+     * @param limbs
+     */
     protected void setLimbs(int limbs) {
         numberOfLimbs = limbs;
     }
