@@ -9,19 +9,19 @@ package org.redbasin.lesson1;
 /**
  * Understanding static variables.
  * Note that the static color variable is shared across two instances of
- * the Mango class.
+ the UnderstandingStatic class.
  *
  * @author redbasin
  */
-class Mango {
+class UnderstandingStatic {
 
     static public String color = "red";
 
     public static void main(String[] args) {
-        Mango m1 = new Mango();
+        UnderstandingStatic m1 = new UnderstandingStatic();
         m1.color = "green";
         System.out.println(m1.color);
-        Mango m2 = new Mango();
+        UnderstandingStatic m2 = new UnderstandingStatic();
         m2.color = "yellow";
         System.out.println(m2.color);
          System.out.println(m1.color);
