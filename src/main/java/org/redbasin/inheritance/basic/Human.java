@@ -7,11 +7,17 @@
 package org.redbasin.inheritance.basic;
 
 /**
+ * A Human is_a_type_of Mammal.
  *
  * @author redbasin
  */
 public class Human extends Mammal {
 
+    /**
+     * Note we know the number of limbs, fingers and milk produced
+     * only when we create the instance of Human, even though the actual
+     * attributes are defined in the base class.
+     */
     public Human() {
         setLimbs(2);
         setFingers(5);

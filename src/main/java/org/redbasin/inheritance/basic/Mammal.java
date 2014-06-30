@@ -7,6 +7,7 @@
 package org.redbasin.inheritance.basic;
 
 /**
+ * A Mammal is_a_type_of Animal.
  *
  * @author redbasin
  */

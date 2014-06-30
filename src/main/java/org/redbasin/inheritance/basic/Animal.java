@@ -7,6 +7,7 @@
 package org.redbasin.inheritance.basic;
 
 /**
+ * This is the super base class.
  *
  * @author redbasin
  */
