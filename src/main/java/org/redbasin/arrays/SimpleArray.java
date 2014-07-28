@@ -7,6 +7,7 @@ package org.redbasin.arrays;
  */
 
 /**
+ * The ijth cell has i+j in it.
  *
  * @author redbasin
  */
@@ -16,25 +17,23 @@ public class SimpleArray {
         int[][] x = new int[4][4];
         int i = 0;
         while (i < 4) {
-            //System.out.println(x[i]);
             int j = 0;
             while (j < 4) {
                  x[i][j] = i + j;
-                 j = j + 1;
+                 j++;
             }
-            i = i + 1;
+            i++;
         }
 
         i = 0;
         while (i < 4) {
-            //System.out.println(x[i]);
             int j = 0;
             while (j < 4) {
                  System.out.print(x[i][j]);
-                 j = j + 1;
+                 j++;
             }
             System.out.println();
-            i = i + 1;
+            i++;
         }
     }
 

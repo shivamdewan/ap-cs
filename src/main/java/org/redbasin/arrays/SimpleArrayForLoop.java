@@ -7,6 +7,7 @@ package org.redbasin.arrays;
  */
 
 /**
+ * The ijth cell has i+j in it.
  *
  * @author redbasin
  */
