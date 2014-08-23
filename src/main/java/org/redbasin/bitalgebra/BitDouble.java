@@ -6,6 +6,6 @@ public class BitDouble {
           System.out.println("Usage: java BitDouble <double>");
           System.exit(1);
        }
-       System.out.println(Integer.toBinaryString(Double.doubleToRawIntBits(new Double(args[0]))));
+       System.out.println(Long.toBinaryString(Double.doubleToRawLongBits(new Double(args[0]))));
    }
 }
