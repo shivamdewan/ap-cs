@@ -14,7 +14,7 @@ package org.redbasin.classwork3;
  * 1
  * @author mjoshi
  */
-public class PrintingNumbers2 {
+public class PrintNumbers2 {
     
     public static final int BASE = 10;
     
