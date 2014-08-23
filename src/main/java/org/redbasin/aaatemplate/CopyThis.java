@@ -1,4 +1,4 @@
-package org.redbasin.template;
+package org.redbasin.aaatemplate;
 
 /**
  * Copy this template for all your programs, to a fresh directory
