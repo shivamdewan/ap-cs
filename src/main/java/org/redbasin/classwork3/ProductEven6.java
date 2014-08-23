@@ -7,10 +7,9 @@
 package org.redbasin.classwork3;
 
 /**
- * Compute the product of even numbers between 1 and 15.
- * 
- * It should print
- * 2500
+ * Compute the product of even numbers between 1 and 100. Figure out 
+ * the largest correct product possible. The correct answer is:
+ * 185794560
  * 
  * @author mjoshi
  */
