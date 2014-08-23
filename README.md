@@ -12,6 +12,6 @@ the various packages organized by theory and topic.
 
 Start Here
 =====
-https://github.com/jtanisha-ee/ap-cs/blob/master/src/main/java/org/redbasin/template/CopyThis.java
+https://github.com/jtanisha-ee/ap-cs/blob/master/src/main/java/org/redbasin/aaatemplate/CopyThis.java
 
 
