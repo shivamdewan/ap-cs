@@ -21,10 +21,15 @@ public class ProductEven6 {
         int max = 100;
         int product = 1;
         for (int i = min; i <= max; i++) {
-            if (i % 2 == 0)
-                product *= i;
+            if (i % 2 == 0) {
+                int aProduct = product * i;
+                if (aProduct < 0) {
+                    System.out.println("overflow occurs when i = " + i);
+                    System.out.println("largest correct product = " + product);
+                    break;
+                }
+                product = aProduct;
+            }
         }
-        System.out.println(product);
     }
-    
 }
