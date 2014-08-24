@@ -4,16 +4,17 @@
  * and open the template in the editor.
  */
 
-package org.redbasin.classwork3;
+package org.redbasin.classwork1;
 
 /**
- * Given number compute the sum of digits. For example if the number is 419 the output should be 
-
-14
-
+ * Extract digits of a non-negative number from right-to-left and print them. Given 127, 
+ * output should look like:
+ * 7
+ * 2
+ * 1
  * @author mjoshi
  */
-public class DigitPlay4 {
+public class PrintNumbers2 {
     
     public static final int BASE = 10;
     
@@ -27,7 +28,7 @@ public class DigitPlay4 {
         int divisor = 1;
         
         // If number is equal to 0, we do not use the loop below. We just print
-        // 0 as the sum and exit.
+        // 0 and exit.
         if (number == 0) {
             System.out.println(number);
             System.exit(0);
@@ -43,14 +44,11 @@ public class DigitPlay4 {
            723/100 = 7
            7%10 = 7 which gives us the third digit
            723/1000 = 0, and we stop the while loop here
-           At each step we compute the sum from the digit extracted.
         */
-        int sum = 0;
         while (number/divisor != 0) {
             int digit = number/divisor % BASE;
-            sum += digit;
+            System.out.println(digit);
             divisor *= BASE;
         }
-        System.out.println(sum);
     }
 }

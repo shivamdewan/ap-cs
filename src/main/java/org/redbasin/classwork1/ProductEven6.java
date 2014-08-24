@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package org.redbasin.classwork3;
+package org.redbasin.classwork1;
 
 /**
  * Compute the product of even numbers between 1 and 100. Figure out 

@@ -4,28 +4,20 @@
  * and open the template in the editor.
  */
 
-package org.redbasin.classwork3;
+package org.redbasin.classwork1;
 
 /**
  * Reverse characters in the String “computation” and print it.
- * Reverse it a second time to get back the original String.
  * 
  * @author mjoshi
  */
-public class ReverseString8 {
+public class ReverseString7 {
     
     public static void main(String[] args) {
         String input = "computation";
-        String reversed = "";
         for (int i = input.length()-1; i >= 0; i--) {
-            reversed += input.charAt(i);
+            System.out.print(input.charAt(i));
         }
-        System.out.println(reversed);
-        
-        String original = "";
-        for (int i = reversed.length()-1; i >= 0; i--) {
-            original += reversed.charAt(i);
-        }
-        System.out.println(original);
+        System.out.println();
     }
 }
