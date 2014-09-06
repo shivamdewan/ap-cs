@@ -16,6 +16,7 @@ import java.util.Scanner;
  * 3. Modify it so that it will ask "Enter a line: " each time before you type the line
  * 4. Modify it so that if you enter quit or QUIT, it will quit the program instead of reversing quit.
  * 5. Now modify it so that when you have reversed 5 strings it will say bye and exit.
+ * 6. Reverse the string a second time to get back the original string and print it.
  * 
  * @author mjoshi
  */
