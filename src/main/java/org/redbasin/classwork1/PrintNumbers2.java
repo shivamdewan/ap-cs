@@ -7,33 +7,33 @@
 package org.redbasin.classwork1;
 
 /**
- * Extract digits of a non-negative number from right-to-left and print them. Given 127, 
- * output should look like:
+ * Extract digits of a non-negative number from right-to-left and print them.
+ * Given 127, output should look like:
  * 7
  * 2
  * 1
  * @author mjoshi
  */
 public class PrintNumbers2 {
-    
+
     public static final int BASE = 10;
-    
+
     public static void main(String[] args) {
-        
+
         // Pick an input number
         int number = 427;
-        
+
         // Start with a divisor of 1, so we can multiply by BASE each time
         // resulting in 10, 100, 1000, and so on.
         int divisor = 1;
-        
+
         // If number is equal to 0, we do not use the loop below. We just print
         // 0 and exit.
         if (number == 0) {
             System.out.println(number);
             System.exit(0);
         }
-        
+
         /* We keep dividing the number by the divisor until the value is 0
            This is due to integer division where the fraction between 0 and 1
            is truncated to 0

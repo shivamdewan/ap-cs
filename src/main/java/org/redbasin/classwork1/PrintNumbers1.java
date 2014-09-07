@@ -13,16 +13,16 @@ package org.redbasin.classwork1;
  * @author mjoshi
  */
 public class PrintNumbers1 {
-    
+
     public static void main(String args[]) {
         int x = 3;
         int y = 7;
         // Correct way of doing it
         System.out.println(x + " + " + y + " = " + (x+y));
-        
-        // Note the paranthesis around x+y! If you skip the paranthesis
+
+        // Note the parenthesis around x+y! If you skip the paranthesis
         // what would the result look like
         // Wrong way of doing it
         System.out.println("WRONG!!: " + x + " + " + y + " = " + x+y);
-    }   
+    }
 }
