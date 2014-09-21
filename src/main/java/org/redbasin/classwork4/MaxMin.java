@@ -1,8 +1,9 @@
 package org.redbasin.classwork4;
 
 /**
- * 1. Generate an array of 20 random numbers between 1 and 100. 2. Identify the
- * max and min of these numbers.
+ * 1. Generate an array of 20 random numbers between 1
+ *    and 100.
+ * 2. Identify the max and min of these numbers.
  *
  * @author redbasin
  */
