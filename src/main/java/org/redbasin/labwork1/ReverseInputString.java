@@ -14,13 +14,17 @@ public class ReverseInputString {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String input;
+        int counter = 0;
+        System.out.print("Can I help you? ");
         while (in.hasNextLine()) {
            input = in.nextLine();
-           String s = "";
+           if (input.equalsIgnoreCase("quit")) break;
+           if (++counter > 4) break;
            for (int i = input.length()-1; i >= 0; i--) {
                System.out.print(input.charAt(i));
            }
            System.out.println();
+           System.out.print("Can I help you? ");
         }
     }
 }
