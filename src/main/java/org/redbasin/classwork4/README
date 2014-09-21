@@ -1,0 +1,15 @@
+The following program does the following:
+
+1. Generates an array of 20 random numbers between 1 and 100.
+2. Identifies the max and min of these numbers.
+
+Please perform the following:
+
+1. Type, compile and run the program you see.
+2. Modify it to generate 50 random numbers between [50..150]
+3. Compile and run it to print the max and min.
+4. Modify it further to print the top two max ranked as 1 and 2.
+5. Compile and run it to print:
+     First =  <number>
+     Second = <number>
+
