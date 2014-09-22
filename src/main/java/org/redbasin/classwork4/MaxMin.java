@@ -1,14 +1,12 @@
 package org.redbasin.classwork4;
-
 /**
  * 1. Generate an array of 20 random numbers between 1
  *    and 100.
  * 2. Identify the max and min of these numbers.
- *
+ * FILL IN THE QUESTION MARKS WITH CORRECT VALUES.
  * @author redbasin
  */
 public class MaxMin {
-
   public static void main(String[] args) {
     int min = 100, max = 0;
     int[] numbers = new int[20];

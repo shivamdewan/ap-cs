@@ -1,4 +1,4 @@
-The following program does the following:
+The existing program does the following:
 
 1. Generates an array of 20 random numbers between 1 and 100.
 2. Identifies the max and min of these numbers.
