@@ -7,6 +7,7 @@
 package org.redbasin.classwork1;
 
 /**
+ * This adds two numbers. Isn't that lovely.
  *
  * @author redbasin
  */
