@@ -13,7 +13,8 @@ Exercise 1
 ==========
 
 Successively increase the size of NUM_TERMS to 100, 1000, 10000
-and so on, observe how the sum keeps increasing.
+and so on, observe how the sum keeps increasing. Modify the code
+so as to print the sum after every 1000 terms.
 
 Exercise 2
 ==========
