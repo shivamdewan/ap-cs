@@ -34,5 +34,8 @@ Once you write the program, you will observe that sum converges
 to 2 when NUM_TERMS converges to infinity. Since double has
 finite precision, the value of the sum approaches 2 but never is
 equal to 2. You will also observe that at sum point the sum does
-not change when the number of terms reaches M. Can you figure out
-what is the value of M?
+not change when the number of terms reaches M, even when you
+add the next term. Can you figure out what is the value of M?
+When the number of terms reaches M, you will need to exit the loop
+as any further terms being added will not change the value of sum.
+Print the sum and the value of M after you exit the loop.
