@@ -1,24 +1,19 @@
 Digit Words
 ===========
-
-The digit words program takes a digit spelled in letters and returns back the corresponding digit.
-For instance, if you enter two, it will return 2, and if you enter three, it will return 3.
-
+The digit words program takes a digit spelled in letters and
+returns back the corresponding digit. For instance, if you
+enter two, it will return 2, and  if you enter three, it will return 3.
 Exercise 1
 ==========
-
-Please implement the for loop. Compile and run the program to test if it works.
-
+Please implement the for loop. Compile and run the program
+to test if it works.
 Exercise 2
 ==========
-
-Currently, if you enter any invalid string, it just prints 0. Modify the program so that 
-instead of returning 0, it will print:
-
+Currently, if you enter any invalid string, it just prints 0. Modify
+the program so that instead of returning 0, it will print:
 "You have entered an invalid string."
-
 Exercise 3
 ==========
-
-Write a new program, WordDigits.java that does the reverse. So if you enter 1, it should
-print 1, or if you enter five, it should print 5, and so on. Make it working for digits 0-9.
+Write a new program, WordDigits.java that does the reverse.
+So if you enter 1, it should print 1, or if you enter five, it should
+print 5, and so on. Make it working for digits 0-9.

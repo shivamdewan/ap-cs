@@ -1,16 +1,9 @@
 package org.redbasin.classwork6;
 import java.util.Scanner;
-public class DigitWords {
+public class WordDigits {
     public static final String[] digits = {"zero", "one", "two",
       "three", "four", "five", "six", "seven", "eight", "nine"};
-    public static int getDigit(String digit) {
-      for (int i = 0; i < digits.length; i++) {
-           if (digit.equals(digits[i])) {
-              return i;
-           }
-      }
-      return -2;
-    }
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String input;
@@ -18,11 +11,11 @@ public class DigitWords {
         while (in.hasNextLine()) {
            input = in.nextLine();
            if (input.equals("quit")) break;
-           int digit = getDigit(input);
-           if (digit == -2) {
-              System.out.println("You have entered an invalid string. Shame on you!");
+           int digit = Integer.parseInt(input);
+           if (digit >= digits.length-1) {
+              System.out.println("You have entered too big a number");
            } else {
-               System.out.println("digit = " + digit);
+              System.out.println("digit = " + digits[digit]);
            }
            System.out.print("Spell out a digit: ");
         }
