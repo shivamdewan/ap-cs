@@ -17,6 +17,6 @@ NE: (9, 7)
 SW: (4, 1)
 SE: (9, 1)
 
-Validate Rectangle
+Validate Rectangle (Homework)
 ===========
 Write a method which will validate the rectangle. How do we know if this is indeed a rectangle?
