@@ -6,7 +6,7 @@ NW: (x1, y1)
 NE: (x2, y2)
 SW: (x3, y3)
 SE: (x4, y4)
-It should return getArea() and getPerimeter() as double. The formula for distance is
+It should return area() and perimeter() as double. The formula for distance is
 Math.sqrt(Math.pow(y2-y1, 2) + Math.pow(x2-x1, 2))
 
 Test Program
