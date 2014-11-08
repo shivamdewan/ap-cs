@@ -1,3 +1,6 @@
+Rectangle Class
+============
+
 Develop a Rectangle class that takes as input the 4 co-ordinates:
 NW: (x1, y1)
 NE: (x2, y2)
@@ -5,6 +8,9 @@ SW: (x3, y3)
 SE: (x4, y4)
 It should return getArea() and getPerimeter() as double. The formula for distance is
 Math.sqrt(Math.pow(y2-y1, 2) + Math.pow(x2-x1, 2))
+
+Test Program
+=========
 Test your class with this example:
 NW: (4, 7)
 NE: (9, 7)
