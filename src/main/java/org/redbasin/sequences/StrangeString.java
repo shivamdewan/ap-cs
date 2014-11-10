@@ -3,29 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package org.redbasin.sequences;
 
 /**
  *
  * @author redbasin
  */
-public class Fibonacci {
+public class StrangeString {
 
   public static void main(String[] args) {
+    int x = 1;
+    System.out.println("The magic number is " + x + 1);
+    System.out.println("The magic number is " + (x + 1));
 
-    int numTerms = 2;
-    long x = 1;
-    long y = 1;
-
-    System.out.println(x);
-    System.out.println(y);
-
-    while (numTerms != 100) {
-      x = x + y;
-      y = x - y;
-      numTerms++;
-      System.out.println("My " + numTerms + "th term is " + x);
-    }
+    System.out.println(911 + " Dial" );
   }
 
 }
