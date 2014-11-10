@@ -14,8 +14,8 @@ public class StrangeString {
 
   public static void main(String[] args) {
     int x = 1;
-    System.out.println("The magic number is " + x + 1);
-    System.out.println("The magic number is " + (x + 1));
+    System.out.println("String operator " + x + 1);
+    System.out.println("Numeric arithmetic " + (x + 1));
 
     System.out.println(911 + " Dial" );
   }
