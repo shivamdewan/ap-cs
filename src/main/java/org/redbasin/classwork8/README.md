@@ -1,3 +1,6 @@
+Exercises
+=====
+
 (I) Which of the following can be used to replace /* missing code */ so that
 advance will correctly update the time?
 
