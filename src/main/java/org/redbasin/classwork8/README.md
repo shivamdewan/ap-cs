@@ -11,6 +11,7 @@ advance will correctly update the time?
 
 (II) Consider the following declaration that appears in a class
 other than TimeRecord.
+
      TimeRecord[] timeCards = new TimeRecord[100];
 
 Assume that timeCards has been initialized with TimeRecord objects.
