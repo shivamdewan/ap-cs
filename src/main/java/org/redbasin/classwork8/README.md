@@ -5,11 +5,17 @@ Exercises
 advance will correctly update the time?
 
 (a) minutes = minutes % 60;
+
 (b) minutes = minutes + hours % 60;
+
 (c) hours = hours + minutes / 60;
+     
      minutes = minutes % 60;
+
 (d) hours = hours + minutes % 60;
+     
      minutes = minutes / 60;
+
 (e) hours = hours + minutes / 60;
 
 (II) Consider the following declaration that appears in a class
@@ -33,8 +39,12 @@ missing expression
 so that the code segment will work as intended?
 
 (a) timeCards[k].advance()
+
 (b) total += timeCards[k].advance()
+
 (c) total.advance (timeCards[k].hours, timeCards[k].minutes)
+
 (d) total.advance(timeCards[k].getHours(), timeCards[k].getMinutes())
+
 (e) timeCards[k].advance(timeCards[k].getHours(), timeCards[k].getMinutes()
 
