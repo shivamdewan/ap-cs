@@ -1,7 +1,7 @@
 Rectangle Class
 ============
 
-Develop a Rectangle class that takes as input the 4 Coordinate objects:
+Develop Rectangle class that takes as input the 4 Coordinate objects:
 NW: (x1, y1)
 NE: (x2, y2)
 SW: (x3, y3)
