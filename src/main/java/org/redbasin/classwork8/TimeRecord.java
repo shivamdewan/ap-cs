@@ -18,6 +18,7 @@ public class TimeRecord {
       */
     public int getHours() {
         // implementation now shown
+        return 0;
     }
 
      /** @return the number of minutes
@@ -25,6 +26,7 @@ public class TimeRecord {
       */
     public int getMinutes() {
         // implementation not shown
+        return 0;
     }
 
      /** Adds h hours and m minutes to this TimeRecord.
