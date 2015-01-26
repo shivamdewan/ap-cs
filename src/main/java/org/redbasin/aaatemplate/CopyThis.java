@@ -14,8 +14,8 @@ package org.redbasin.aaatemplate;
  *
  * @author Doe, John (john.doe@example.com)
  */
-public class CopyThis {
-
+ public class CopyThis {
+    
   /**
    * Every program you write must have the following main declared 
    * exactly as below. Please do not change any of the words below such

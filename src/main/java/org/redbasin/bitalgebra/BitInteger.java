@@ -10,7 +10,8 @@ class BitAlgebra {
    /**
     * Get the bit representation for a int type in Java as
     * a String of 0's and 1's that is in binary notation.
-    * The left most bit will be 0, if the number is positive,
+    * The left most
+    * bit will be 0, if the number is positive,
     * by definition of numeric types in Java. The left most bit will be 1
     * otherwise.
     */

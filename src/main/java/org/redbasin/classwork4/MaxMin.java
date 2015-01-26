@@ -9,12 +9,13 @@ package org.redbasin.classwork4;
 public class MaxMin {
   public static void main(String[] args) {
     int min = 100, max = 0;
-    int[] numbers = new int[20];
-    for (int i = 0; i < 20; i++) {
+    final int CNT = 1000000000;
+    int[] numbers = new int[CNT];
+    for (int i = 0; i < CNT; i++) {
       numbers[i] = (int) (Math.random() * 100);
-      System.out.print(numbers[i] + " ");
+      //System.out.print(numbers[i] + " ");
     }
-    for (int i = 0; i < 20; i++) {
+    for (int i = 0; i < CNT; i++) {
       if (numbers[i] > max) {
         max = numbers[i];
       }
