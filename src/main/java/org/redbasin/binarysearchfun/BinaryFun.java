@@ -7,7 +7,7 @@ package org.redbasin.binarysearchfun;
 
 /**
  * Print the index of the target within a list.
- * 
+ * ``
  * @author mjoshi
  */
 public class BinaryFun {
@@ -15,9 +15,9 @@ public class BinaryFun {
     public static void main(String[] args) {
         // assume they are sorted, and the numbers are unique
         int[] pages = {1, 4, 8, 9, 13, 21, 24, 25, 29, 31, 37, 71, 83, 94};
-        
+
         int target = 216;  // actual value to be searched
-        
+
         // left, right and middle are indices
         int left = 0;                // index and not value
         int right = pages.length;
@@ -40,5 +40,5 @@ public class BinaryFun {
             }
         }
     }
-    
+
 }

@@ -7,7 +7,7 @@
 package org.redbasin.stringtheory.stringliteral;
 
 /**
- *
+ * Print all the greek alphabets.
  * @author redbasin
  */
 public class UnicodeTest {
